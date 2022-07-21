@@ -1,3 +1,4 @@
+// Product object with properties required by this consumer
 export class Product {
   constructor({id, name, type}) {
     if (!id || !name || !type) {
